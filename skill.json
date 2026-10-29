@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-genpark-memory-vault",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark cryptographically partitioned hierarchical memory vault with Ebbinghaus time-decay and HMAC namespace isolation.",
+  "tools": [
+    {
+      "name": "generate_auth_token",
+      "description": "Generate an HMAC authentication token for a tenant partition."
+    },
+    {
+      "name": "store_memory",
+      "description": "Store an importance-weighted memory record in the vault."
+    },
+    {
+      "name": "query_memory_with_decay",
+      "description": "Query memories ranked by time-decay retention score."
+    }
+  ]
+}
